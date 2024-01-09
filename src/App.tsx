@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Editor from "./component/Editor";
-import MemoCard from "./component/memoCard";
+import MemoCard from "./component/memoCard/memoCard";
 
 function App() {
   return (
