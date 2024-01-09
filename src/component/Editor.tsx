@@ -92,6 +92,7 @@ export default function Editor() {
     localStorage.setItem("userItems", JSON.stringify(updatedItems));
     console.log("저장된 값:", localStorage.getItem("userItems"));
     alert("입력이 배열로 저장되었습니다.");
+    window.location.reload();
   };
 
   return (
