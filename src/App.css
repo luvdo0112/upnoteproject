@@ -761,15 +761,13 @@ i.justify-align {
   background-image: url(images/icons/justify.svg);
 }
 
-/* .main {
-  position: absolute;
+.main {
+  display: flex;
+  width: 1400px;
 }
 
 .memo-list {
-  position: relative;
 }
 
-.memo-pad {
-  position: relative;
-  top: 0px;
-} */
+.editor-container {
+}
