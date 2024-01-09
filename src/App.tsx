@@ -1,13 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Editor from "./Editor";
+import Editor from "./component/Editor";
+import MemoCard from "./component/memoCard";
 
 function App() {
   return (
     <>
       <main className="main">
+        <section className="memo-list">
+          <MemoCard></MemoCard>
+        </section>
         <section className="memo-pad">
           <Editor></Editor>
         </section>
